@@ -12,11 +12,11 @@
 To take my quiz follow these steps:
 
 1. Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
-  cd desktop
-  git clone https://github.com/christinereina/epicodus-beepboop
+ * cd desktop
+ * git clone https://github.com/christinereina/epicodus-beepboop
 
 2. Go to the week3 folder from your Terminal
-  cd week3
+ * cd week3
 
 3. Type in open index.html from your Terminal 
   this will open my quiz in an HTML browser
@@ -25,23 +25,40 @@ To take my quiz follow these steps:
 
 ## Specifications
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-------------- | -------------
-              |
-------------- | -------------
+The program returns a range of numbers from 0 to the users inputted number
 
+* Input: "4"
+* Output: "0, 1, 2, 3, 4"
 
-------------- | -------------
+Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 
+* Input: “1”
+* Output: “Beep”
 
-------------- | -------------
+Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 
+* Input: “1, 2”
+* Output: “Beep, Boop"
+
+Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry. I don't do threes! ^_^"
+
+* Input: "1, 2, 3"
+* Output: "Beep, Boop, I'm sorry. I don't do threes! ^_^"
+
+These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third.
+
+Examples:
+
+The number 13 should be replaced with:
+* "Beep, Boop, I'm sorry. I don't do threes! ^_^"
+* The number 21 should be replaced with:
+"Boop".
+* The number 32 should be replaced with:
+"Beep, Boop, I'm sorry. I don't do threes! ^_^"
 
 ## Known Bugs
 
+None known at this time
 
 ## Support and contact details
 
@@ -51,7 +68,7 @@ blacchoy@gmail.com | 818-481-0683
 
 ## Technologies Used
 
-HTMl
+* HTML
 
 * CSS
 
