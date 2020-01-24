@@ -1,23 +1,20 @@
 body {
   padding: 40px;
+  text-align: center;
+
+  background-image: linear-gradient(to left, #ff70e9, #fc75e5, #f87ae2, #f57fde, #f183db, #ee91e1, #eb9ee7, #e8abeb, #e8c2f5, #ebd8fc, #f2ecff, #ffffff);
 }
 
 img {
-  display: block;
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 300px;
-  width: 300px;
 }
 
 h1, h2, h3 {
   text-align: center;
 }
 
-.button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  text-align: center;
-}
