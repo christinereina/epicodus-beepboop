@@ -9,8 +9,8 @@ $(document).ready(function() {
     for (var index =0; index < userAnswers.length; index +=1) {
       if (userAnswers[index] === '1') {
           userAnswers.splice(index,1,'hello')
-      } else (userAnswers[index] < '1') 
-          userAnswers.splice(index,1,'kitty')
+      } else if (userAnswers[index] === '2') 
+          userAnswers.splice(index,2,'kitty')
     };
 
       $("#output").text(userAnswers);
