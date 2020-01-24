@@ -1,4 +1,4 @@
-# Programming Language Suggester
+# Beep Boop 
 
 #### Arrays and Looping Independent Project | Week Three Exercise for Epicodus, 01.24.2020
 
@@ -13,15 +13,15 @@ To take my quiz follow these steps:
 
 1. Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
   cd desktop
-  git clone 
+  git clone https://github.com/christinereina/epicodus-beepboop
 
-2. Go to the programming-form folder from your Terminal
-  cd programming-form
+2. Go to the week3 folder from your Terminal
+  cd week3
 
 3. Type in open index.html from your Terminal 
   this will open my quiz in an HTML browser
 
-4. Enjoy your result!
+4. Enjoy my beep-boop robot!
 
 ## Specifications
 
@@ -29,6 +29,15 @@ First Header  | Second Header
 ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+------------- | -------------
+              |
+------------- | -------------
+
+
+------------- | -------------
+
+
+------------- | -------------
 
 
 ## Known Bugs
