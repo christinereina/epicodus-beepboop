@@ -4,24 +4,24 @@
 
 #### **By Christine Augustine**
 
-
 ## Description
 
+This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a couple of exceptions. See more about this in my Specificiations. 
 
 ## Installation / Setup
 To take my quiz follow these steps:
 
-1. Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
+Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
  * cd desktop
  * git clone https://github.com/christinereina/epicodus-beepboop
 
-2. Go to the week3 folder from your Terminal
+Go to the week3 folder from your Terminal
  * cd week3
 
-3. Type in open index.html from your Terminal 
-  this will open my quiz in an HTML browser
+Type in open index.html from your Terminal 
+  this will open my "robot" in an HTML browser
 
-4. Enjoy my beep-boop robot!
+Enjoy my beep-boop robot!
 
 ## Specifications
 
@@ -38,27 +38,29 @@ Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 
 * Input: “1, 2”
-* Output: “Beep, Boop"
+* Output: “Boop"
 
 Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry. I don't do threes! ^_^"
 
 * Input: "1, 2, 3"
-* Output: "Beep, Boop, I'm sorry. I don't do threes! ^_^"
+* Output: "I'm sorry. I don't do threes! ^_^"
 
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third.
 
 Examples:
 
 The number 13 should be replaced with:
-* "Beep, Boop, I'm sorry. I don't do threes! ^_^"
-* The number 21 should be replaced with:
-"Boop".
-* The number 32 should be replaced with:
-"Beep, Boop, I'm sorry. I don't do threes! ^_^"
+* "I'm sorry. I don't do threes! ^_^"
+
+The number 21 should be replaced with:
+* "Boop".
+
+The number 32 should be replaced with:
+* "I'm sorry. I don't do threes! ^_^"
 
 ## Known Bugs
 
-None known at this time
+Currently not working as the specifications detail (as of 1/24/2020)
 
 ## Support and contact details
 
