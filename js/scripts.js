@@ -1,29 +1,28 @@
 //in progress code
 // business logic below
-function robot(number) {
-  var numberArray = [];
-
-  for (var i = 0; i <= number; i +=1) {
-    if (userAnswers === '1') { 
-      numberArray.push('hello');
+var finalResult = function (number) {
+  var number = [];
+  for (i = 0; i < number; i++) {
+    if (number === ('1')) { 
+     number.push('hello');
   }
-}
-return number;
-}
+} 
+return finalResult;
+};
 
 // user interface logic below
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var userInput = parseInt($("input#kitty").val());
-    var kittyResponse = robot(userInput);
+    var number = parseInt($("input#user").val());
+    var result = finalResult(user);
 
-    $("#output").text(kittyResponse);
+    $("#output").text(result);
   });
 });
 
-//working code 
+//working-ish code 
 
 // $(document).ready(function() {
 //   $("form").submit(function(event){
