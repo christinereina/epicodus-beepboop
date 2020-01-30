@@ -1,3 +1,15 @@
+
+// business logic below
+
+function robot(userAnswers) {
+  var number = [];
+  
+}
+
+
+
+
+// user interface logic below
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
