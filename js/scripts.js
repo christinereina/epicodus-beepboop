@@ -1,9 +1,15 @@
-
+//in progress code
 // business logic below
 function robot(number) {
-return (number +1)
-};
+  var numberArray = [];
 
+  for (var i = 0; i <= number; i +=1) {
+    if (userAnswers === '1') { 
+      numberArray.push('hello');
+  }
+}
+return number;
+}
 
 // user interface logic below
 $(document).ready(function() {
@@ -17,6 +23,7 @@ $(document).ready(function() {
   });
 });
 
+//working code 
 
 // $(document).ready(function() {
 //   $("form").submit(function(event){
@@ -42,4 +49,3 @@ $(document).ready(function() {
 
 //       });
 // });
-		
