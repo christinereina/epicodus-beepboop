@@ -1,12 +1,8 @@
 
 // business logic below
-
-function robot(userAnswers) {
-  var number = [];
-  
-}
-
-
+function robot(number) {
+return (number +1)
+};
 
 
 // user interface logic below
