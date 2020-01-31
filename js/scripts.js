@@ -15,7 +15,7 @@ function robot(userInput) {
 
   var list = [];
 
-  for (var i = 1; i < userInput; i++) {
+  for (var i = 1; i <= userInput; i++) {
     if (i === 1) {
       list.push(messages[0]);
     } else if (i === 2) {
