@@ -1,50 +1,44 @@
-//in progress code
-// business logic below
-var finalResult = function (number) {
-  var number = [];
-  for (i = 0; i < number; i++) {
-    if (number === ('1')) { 
-     number.push('hello');
+function getKitty(input) {
+
+  var messages = ["Hello", "Kitty", "I'm sorry, human. I'm afraid I can't do that."];
+
+  var numbers = input.toString().split("");
+  if (numbers.includes("3")) {
+    return messages[2];
+  } else if (numbers.includes("2")) {
+    return messages[1];
+  } else if (numbers.includes("1")) {
+    return messages[0];
   }
-} 
-return finalResult;
-};
+
+  var list = [];
+
+  for (var i = 0; i < (input); i++) {
+    if (i == 1) {
+      list.push(messages[0]);
+    } else if (i == 2) {
+      list.push(messages[1]);
+    } else if (i == 3) {
+      list.push(messages[2]);
+    } else {
+      list.push(i.toString());
+    }
+  }
+
+  return list.join(", ");
+}
 
 // user interface logic below
+
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var number = parseInt($("input#user").val());
-    var result = finalResult(user);
+    var input = parseInt($("input#user").val());
+    var result = getKitty(input);
+
+    console.log(input)
 
     $("#output").text(result);
   });
 });
-
-//working-ish code 
-
-// $(document).ready(function() {
-//   $("form").submit(function(event){
-//     event.preventDefault();
-
-//     var string = $("input#kitty").val();
-//     var userAnswers = string.split('');
-//     var list = userAnswers;
-
-//     for (var number =0; number < userAnswers.length; number +=1) {
-//       if (userAnswers[number] === '1') {
-//           userAnswers.includes(number,1,'hello')
-//       } else if (userAnswers[number] === '1') {
-//           userAnswers.splice(number,2,'kitty')
-//       } else if (userAnswers[number] === '2') {
-//           userAnswers.splice(number,2,'kitty')
-//       } else if (userAnswers[number] === '3') {
-//           userAnswers.splice(number,3,'hello kitty no kno threes')
-//     }
-//   }
-
-//       $("#output").text(userAnswers);
-
-//       });
-// });
