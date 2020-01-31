@@ -1,4 +1,4 @@
-# Beep Boop 
+# Hello Beep Kitty Boop!
 
 #### Arrays and Looping Independent Project | Week Three Exercise for Epicodus, 01.24.2020
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a couple of exceptions. See more about this in my Specificiations. 
+This is a very cute web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a couple of exceptions. See more about this in my Specificiations. 
 
 ## Installation / Setup
 To take my quiz follow these steps:
@@ -21,7 +21,7 @@ Go to the week3 folder from your Terminal
 Type in open index.html from your Terminal 
   this will open my "robot" in an HTML browser
 
-Enjoy my beep-boop robot!
+Enjoy talking with Hello Kitty!
 
 ## Specifications
 
@@ -30,12 +30,12 @@ The program returns a range of numbers from 0 to the users inputted number
 * Input: "4"
 * Output: "0, 1, 2, 3, 4"
 
-Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+Numbers that contain a 1: all digits are replaced (all digits) with "Hello!"
 
 * Input: “1”
 * Output: “Beep”
 
-Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+Numbers that contain a 2: all digits are replaced (all digits) with "Kitty!"
 
 * Input: “1, 2”
 * Output: “Boop"
@@ -43,24 +43,24 @@ Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry. I don't do threes! ^_^"
 
 * Input: "1, 2, 3"
-* Output: "I'm sorry. I don't do threes! ^_^"
+* Output: I dont do threes! ^_^
 
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third.
 
 Examples:
 
 The number 13 should be replaced with:
-* "I'm sorry. I don't do threes! ^_^"
+* I dont do threes! ^_^
 
 The number 21 should be replaced with:
 * "Boop".
 
 The number 32 should be replaced with:
-* "I'm sorry. I don't do threes! ^_^"
+* I dont do threes! ^_^
 
 ## Known Bugs
 
-Currently not working as the specifications detail (as of 1/24/2020)
+None as of 1/30/2019
 
 ## Support and contact details
 

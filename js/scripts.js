@@ -1,8 +1,10 @@
-function getKitty(input) {
+// business logic below
 
-  var messages = ["Hello", "Kitty", "I'm sorry, human. I'm afraid I can't do that."];
+function robot(userInput) {
 
-  var numbers = input.toString().split("");
+  var messages = ["Hello", "Kitty", "I dont do threes! ^_^"];
+
+  var numbers = userInput.toString().split("");
   if (numbers.includes("3")) {
     return messages[2];
   } else if (numbers.includes("2")) {
@@ -13,7 +15,7 @@ function getKitty(input) {
 
   var list = [];
 
-  for (var i = 0; i < (input); i++) {
+  for (var i = 0; i < userInput; i++) {
     if (i == 1) {
       list.push(messages[0]);
     } else if (i == 2) {
@@ -34,10 +36,8 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var input = parseInt($("input#user").val());
-    var result = getKitty(input);
-
-    console.log(input)
+    var userInput = parseInt($("input#user").val());
+    var result = robot(userInput);
 
     $("#output").text(result);
   });
