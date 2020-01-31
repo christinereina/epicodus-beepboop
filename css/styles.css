@@ -1,7 +1,6 @@
 body {
   padding: 40px;
   text-align: center;
-
   background-image: linear-gradient(to left, #ff70e9, #fc75e5, #f87ae2, #f57fde, #f183db, #ee91e1, #eb9ee7, #e8abeb, #e8c2f5, #ebd8fc, #f2ecff, #ffffff);
 }
 
@@ -30,4 +29,8 @@ h4 {
 #output {
   font-size: xx-large;
   color: #f2ecff;
+}
+
+button {
+  cursor: url(http://cur.cursors-4u.net/anime/ani-10/ani977.ani), url(http://cur.cursors-4u.net/anime/ani-10/ani977.png), auto !important;
 }
