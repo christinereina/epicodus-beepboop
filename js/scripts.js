@@ -11,16 +11,16 @@ function robot(userInput) {
     return messages[1];
   } else if (numbers.includes("1")) {
     return messages[0];
-  }
+  } else 
 
   var list = [];
 
-  for (var i = 0; i < userInput; i++) {
-    if (i == 1) {
+  for (var i = 1; i < userInput; i++) {
+    if (i === 1) {
       list.push(messages[0]);
-    } else if (i == 2) {
+    } else if (i === 2) {
       list.push(messages[1]);
-    } else if (i == 3) {
+    } else if (i === 3) {
       list.push(messages[2]);
     } else {
       list.push(i.toString());
