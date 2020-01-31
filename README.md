@@ -25,11 +25,6 @@ Enjoy talking with Hello Kitty!
 
 ## Specifications
 
-The program returns a range of numbers from 0 to the users inputted number
-
-* Input: "4"
-* Output: "0, 1, 2, 3, 4"
-
 Numbers that contain a 1: all digits are replaced (all digits) with "Hello!"
 
 * Input: “1”
@@ -37,13 +32,19 @@ Numbers that contain a 1: all digits are replaced (all digits) with "Hello!"
 
 Numbers that contain a 2: all digits are replaced (all digits) with "Kitty!"
 
-* Input: “1, 2”
+* Input: “2”
 * Output: “Boop"
 
 Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry. I don't do threes! ^_^"
 
-* Input: "1, 2, 3"
-* Output: I dont do threes! ^_^
+* Input: "3"
+* Output: "I dont do threes! ^_^"
+
+The program returns a range of numbers from 0 to the users inputted number
+
+* Input: "4"
+* Output:  "hello, kitty, I dont do threes! ^_^, 4"
+
 
 These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third.
 

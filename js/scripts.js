@@ -2,13 +2,13 @@
 
 function robot(userInput) {
 
-  var messages = ["Hello", "Kitty", "I dont do threes! ^_^", "hello kitty"];
+  var messages = ["Hello", "Kitty", "I dont do threes! ^_^"];
 
   var numbers = userInput.toString().split("");
   if (numbers.includes("3")) {
     return messages[2];
-  } else if (numbers.includes("1" & "2")) {
-    return messages[3];
+  } else if (numbers.includes("2")) {
+    return messages[1];
   } else if (numbers.includes("1")) {
     return messages[0];
   } else 
